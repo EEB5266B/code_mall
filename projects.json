@@ -1,0 +1,1184 @@
+[
+  {
+    "name": "springboot001",
+    "description": "基于SpringBoot的在线拍卖系统",
+    "language": {
+      "JavaScript": 75.36,
+      "Vue": 8.63,
+      "HTML": 7.53,
+      "CSS": 5.12,
+      "Java": 3.34,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot002",
+    "description": "基于springboot的医护人员排班系统",
+    "language": {
+      "JavaScript": 69.58,
+      "Vue": 10.74,
+      "HTML": 10.48,
+      "CSS": 4.72,
+      "Java": 4.47,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot003",
+    "description": "图书个性化推荐系统的设计与实现",
+    "language": {
+      "JavaScript": 72.81,
+      "Vue": 9.97,
+      "HTML": 8.37,
+      "CSS": 4.94,
+      "Java": 3.88,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot004",
+    "description": "网页时装购物系统",
+    "language": {
+      "JavaScript": 70.28,
+      "Vue": 11.2,
+      "HTML": 9.11,
+      "CSS": 4.77,
+      "Java": 4.62,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot005",
+    "description": "学生心理咨询评估系统",
+    "language": {
+      "Vue": 64.03,
+      "Java": 32.63,
+      "JavaScript": 2.99,
+      "SCSS": 0.23,
+      "HTML": 0.12,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot006",
+    "description": "基于SpringBoot的网上订餐系统",
+    "language": {
+      "JavaScript": 77.55,
+      "Vue": 7.06,
+      "HTML": 7.06,
+      "CSS": 5.27,
+      "Java": 3.05,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot007",
+    "description": "大学生租房平台的设计与实现",
+    "language": {
+      "JavaScript": 75.32,
+      "Vue": 8.11,
+      "HTML": 7.96,
+      "CSS": 5.11,
+      "Java": 3.48,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot008",
+    "description": "房屋租赁系统",
+    "language": {
+      "JavaScript": 61.9,
+      "Vue": 14.39,
+      "HTML": 13.77,
+      "Java": 5.65,
+      "CSS": 4.28,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot009",
+    "description": "月度员工绩效考核管理系统",
+    "language": {
+      "Vue": 70.33,
+      "Java": 27.45,
+      "JavaScript": 1.97,
+      "SCSS": 0.16,
+      "HTML": 0.08,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot010",
+    "description": "大学生入学审核系统的设计与实现",
+    "language": {
+      "Vue": 68.21,
+      "Java": 28.75,
+      "JavaScript": 2.69,
+      "SCSS": 0.23,
+      "HTML": 0.12,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot011",
+    "description": "基于springboot的课程作业管理系统",
+    "language": {
+      "Vue": 71.4,
+      "Java": 27.36,
+      "JavaScript": 1.1,
+      "SCSS": 0.09,
+      "HTML": 0.05,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot012",
+    "description": "基于springboot的社区团购系统设计",
+    "language": {
+      "JavaScript": 70.77,
+      "Vue": 10.5,
+      "HTML": 9.36,
+      "CSS": 4.8,
+      "Java": 4.55,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot013",
+    "description": "基于SpringBoot的旅游网站的设计与实现",
+    "language": {
+      "JavaScript": 69.94,
+      "Vue": 11.16,
+      "HTML": 9.49,
+      "CSS": 4.75,
+      "Java": 4.65,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot014",
+    "description": "校园管理系统的设计与实现",
+    "language": {
+      "Vue": 70.75,
+      "Java": 27.55,
+      "JavaScript": 1.5,
+      "SCSS": 0.13,
+      "HTML": 0.07,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot015",
+    "description": "基于SpringBoot的在线视频教育平台的设计与实现",
+    "language": {
+      "JavaScript": 72.43,
+      "Vue": 9.63,
+      "HTML": 8.63,
+      "CSS": 4.91,
+      "Java": 4.38,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot016",
+    "description": "房产销售系统",
+    "language": {
+      "JavaScript": 69.36,
+      "HTML": 10.9,
+      "Vue": 10.73,
+      "CSS": 4.71,
+      "Java": 4.29,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot017",
+    "description": "学生读书笔记共享",
+    "language": {
+      "JavaScript": 74.87,
+      "Vue": 8.68,
+      "HTML": 7.99,
+      "CSS": 5.04,
+      "Java": 3.4,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot018",
+    "description": "母婴商城",
+    "language": {
+      "JavaScript": 73.11,
+      "Vue": 10.9,
+      "HTML": 8.74,
+      "CSS": 4.96,
+      "Java": 2.26,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot019",
+    "description": "高校心理教育辅导设计与实现",
+    "language": {
+      "JavaScript": 71.22,
+      "Vue": 10.51,
+      "HTML": 8.9,
+      "CSS": 4.83,
+      "Java": 4.52,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot020",
+    "description": "基于Java的免税商品优选购物商城设计与实现代码",
+    "language": {
+      "JavaScript": 68.25,
+      "Vue": 11.74,
+      "HTML": 10.68,
+      "Java": 4.69,
+      "CSS": 4.63,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot021",
+    "description": "校园周边美食探索及分享平台的设计与实现",
+    "language": {
+      "JavaScript": 75.83,
+      "HTML": 7.9,
+      "Vue": 7.86,
+      "CSS": 5.17,
+      "Java": 3.22,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot022",
+    "description": "蜗牛兼职网的设计与实现",
+    "language": {
+      "JavaScript": 76.8,
+      "Vue": 7.58,
+      "HTML": 7.42,
+      "CSS": 5.22,
+      "Java": 2.97,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot023",
+    "description": "学生宿舍管理系统的设计与开发",
+    "language": {
+      "Vue": 70.6,
+      "Java": 27.9,
+      "JavaScript": 1.33,
+      "SCSS": 0.11,
+      "HTML": 0.06,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot024",
+    "description": "基于SpringBoot的企业客户管理系统的设计与实现",
+    "language": {
+      "Vue": 70.83,
+      "Java": 27.14,
+      "JavaScript": 1.78,
+      "SCSS": 0.16,
+      "HTML": 0.08,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot025",
+    "description": "基于SpringBoot网上超市的设计与实现",
+    "language": {
+      "JavaScript": 71.5,
+      "Vue": 10.66,
+      "HTML": 8.55,
+      "CSS": 4.85,
+      "Java": 4.42,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot026",
+    "description": "基于SpringBoot的在线文档管理系统的设计与实现",
+    "language": {
+      "Vue": 69.62,
+      "Java": 27.8,
+      "JavaScript": 2.29,
+      "SCSS": 0.19,
+      "HTML": 0.1,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot027",
+    "description": "网上点餐系统",
+    "language": {
+      "JavaScript": 72.67,
+      "Vue": 9.59,
+      "HTML": 8.99,
+      "CSS": 4.93,
+      "Java": 3.8,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot028",
+    "description": "基于springboot的房屋租赁系统",
+    "language": {
+      "JavaScript": 68.28,
+      "HTML": 11.37,
+      "Vue": 11.22,
+      "CSS": 4.64,
+      "Java": 4.47,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot029",
+    "description": "基于springboot的网上购物商城系统研发",
+    "language": {
+      "JavaScript": 71.91,
+      "Vue": 9.99,
+      "HTML": 8.9,
+      "CSS": 4.88,
+      "Java": 4.3,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot030",
+    "description": "甘肃非物质文化网站的设计与开发",
+    "language": {
+      "JavaScript": 72.12,
+      "Vue": 11.71,
+      "HTML": 8.79,
+      "CSS": 4.89,
+      "Java": 2.48,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot031",
+    "description": "教师工作量管理系统",
+    "language": {
+      "JavaScript": 77.65,
+      "Vue": 7.3,
+      "HTML": 6.88,
+      "CSS": 5.27,
+      "Java": 2.89,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot032",
+    "description": "阿博图书馆管理系统",
+    "language": {
+      "JavaScript": 70.53,
+      "Vue": 10.91,
+      "HTML": 9.53,
+      "CSS": 4.79,
+      "Java": 4.23,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot033",
+    "description": "小徐影城管理系统",
+    "language": {
+      "JavaScript": 70.79,
+      "Vue": 10.62,
+      "HTML": 9.36,
+      "CSS": 4.81,
+      "Java": 4.41,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot034",
+    "description": "在线商城系统设计与开发-代码",
+    "language": {
+      "JavaScript": 73.11,
+      "Vue": 10.9,
+      "HTML": 8.74,
+      "CSS": 4.96,
+      "Java": 2.26,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot035",
+    "description": "学科竞赛管理",
+    "language": {
+      "JavaScript": 75.01,
+      "HTML": 8.45,
+      "Vue": 8.27,
+      "CSS": 5.09,
+      "Java": 3.16,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot036",
+    "description": "海滨体育馆管理系统的设计与实现",
+    "language": {
+      "JavaScript": 68.85,
+      "Vue": 11.07,
+      "HTML": 10.66,
+      "Java": 4.74,
+      "CSS": 4.67,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot037",
+    "description": "基于SpringBoot的墙绘产品展示交易平台的设计与实现",
+    "language": {
+      "JavaScript": 72.29,
+      "Vue": 11.91,
+      "HTML": 8.64,
+      "CSS": 4.91,
+      "Java": 2.24,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot038",
+    "description": "基于SpringBoot的网上租赁系统设计与实现",
+    "language": {
+      "JavaScript": 65.2,
+      "Vue": 12.66,
+      "HTML": 12.15,
+      "Java": 5.56,
+      "CSS": 4.42,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot039",
+    "description": "基于Web足球青训俱乐部管理后台系统开发",
+    "language": {
+      "JavaScript": 69.58,
+      "Vue": 10.8,
+      "HTML": 10.32,
+      "CSS": 4.72,
+      "Java": 4.56,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot040",
+    "description": "社区医院信息平台",
+    "language": {
+      "JavaScript": 64.01,
+      "HTML": 13.67,
+      "Vue": 12.55,
+      "Java": 5.41,
+      "CSS": 4.34,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot041",
+    "description": "师生健康信息管理系统",
+    "language": {
+      "Vue": 70.28,
+      "Java": 28.11,
+      "JavaScript": 1.44,
+      "SCSS": 0.11,
+      "HTML": 0.06,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot042",
+    "description": "IT技术交流和分享平台的设计与实现",
+    "language": {
+      "JavaScript": 78.94,
+      "Vue": 6.68,
+      "HTML": 6.14,
+      "CSS": 5.36,
+      "Java": 2.86,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot043",
+    "description": "基于springboot的“衣依”服装销售平台的设计与实现",
+    "language": {
+      "JavaScript": 70.37,
+      "Vue": 11.04,
+      "HTML": 8.96,
+      "Java": 4.84,
+      "CSS": 4.77,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot044",
+    "description": "美容院管理系统",
+    "language": {
+      "JavaScript": 55.93,
+      "Vue": 16.95,
+      "HTML": 16.28,
+      "Java": 7.03,
+      "CSS": 3.8,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot045",
+    "description": "新闻推荐系统",
+    "language": {
+      "JavaScript": 77.24,
+      "Vue": 7.22,
+      "HTML": 7.1,
+      "CSS": 5.24,
+      "Java": 3.17,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot046",
+    "description": "古典舞在线交流平台的设计与实现",
+    "language": {
+      "JavaScript": 62.58,
+      "Vue": 14.17,
+      "HTML": 12.93,
+      "Java": 6.05,
+      "CSS": 4.24,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot047",
+    "description": "大学生就业招聘系统的设计与实现",
+    "language": {
+      "JavaScript": 72.47,
+      "HTML": 9.51,
+      "Vue": 9.11,
+      "CSS": 4.92,
+      "Java": 3.97,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot048",
+    "description": "校园资料分享平台",
+    "language": {
+      "JavaScript": 76.13,
+      "Vue": 8.08,
+      "HTML": 7.02,
+      "CSS": 5.17,
+      "Java": 3.59,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot049",
+    "description": "在线教育系统设计与实现",
+    "language": {
+      "JavaScript": 65.2,
+      "Vue": 13.17,
+      "HTML": 11.07,
+      "Java": 6.11,
+      "CSS": 4.42,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot050",
+    "description": "星之语明星周边产品销售网站的设计与实现",
+    "language": {
+      "JavaScript": 70.76,
+      "Vue": 10.78,
+      "HTML": 8.85,
+      "CSS": 4.8,
+      "Java": 4.79,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot051",
+    "description": "医院管理系统",
+    "language": {
+      "JavaScript": 69.68,
+      "HTML": 10.61,
+      "Vue": 10.55,
+      "CSS": 4.73,
+      "Java": 4.41,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot052",
+    "description": "旅游管理系统的设计与实现",
+    "language": {
+      "JavaScript": 76.99,
+      "Vue": 7.55,
+      "HTML": 6.98,
+      "CSS": 5.23,
+      "Java": 3.24,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot053",
+    "description": "宠物咖啡馆平台的设计与实现",
+    "language": {
+      "JavaScript": 59.65,
+      "HTML": 15.01,
+      "Vue": 14.9,
+      "Java": 6.38,
+      "CSS": 4.04,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot054",
+    "description": "飘香水果购物网站的设计与实现",
+    "language": {
+      "JavaScript": 64.92,
+      "Vue": 12.95,
+      "HTML": 12.22,
+      "Java": 5.48,
+      "CSS": 4.41,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot055",
+    "description": "服装生产管理的设计与实现",
+    "language": {
+      "JavaScript": 67.84,
+      "Vue": 11.76,
+      "HTML": 10.83,
+      "Java": 4.95,
+      "CSS": 4.6,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot056",
+    "description": "教学资源库",
+    "language": {
+      "JavaScript": 66.65,
+      "Vue": 11.96,
+      "HTML": 11.34,
+      "Java": 5.51,
+      "CSS": 4.52,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot057",
+    "description": "洗衣店订单管理系统",
+    "language": {
+      "JavaScript": 70.03,
+      "Vue": 10.6,
+      "HTML": 9.78,
+      "Java": 4.82,
+      "CSS": 4.75,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot058",
+    "description": "美发门店管理系统",
+    "language": {
+      "JavaScript": 67.84,
+      "Vue": 11.68,
+      "HTML": 10.82,
+      "Java": 5.05,
+      "CSS": 4.6,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot059",
+    "description": "课程答疑系统",
+    "language": {
+      "JavaScript": 68.78,
+      "HTML": 11.04,
+      "Vue": 10.75,
+      "Java": 4.75,
+      "CSS": 4.67,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot060",
+    "description": "师生共评的作业管理系统设计与实现",
+    "language": {
+      "JavaScript": 70.37,
+      "HTML": 10.74,
+      "Vue": 9.89,
+      "CSS": 4.77,
+      "Java": 4.21,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot061",
+    "description": "基于B2B平台的医疗病历交互系统",
+    "language": {
+      "JavaScript": 59.53,
+      "HTML": 15.29,
+      "Vue": 14.66,
+      "Java": 6.48,
+      "CSS": 4.03,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot062",
+    "description": "购物推荐网站的设计与实现",
+    "language": {
+      "JavaScript": 72.98,
+      "Vue": 9.93,
+      "HTML": 7.91,
+      "CSS": 4.95,
+      "Java": 4.2,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot063",
+    "description": "知识管理系统",
+    "language": {
+      "JavaScript": 70.27,
+      "Vue": 10.63,
+      "HTML": 9.85,
+      "CSS": 4.77,
+      "Java": 4.47,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot064",
+    "description": "高校学科竞赛平台",
+    "language": {
+      "JavaScript": 57.73,
+      "HTML": 15.83,
+      "Vue": 15.8,
+      "Java": 6.7,
+      "CSS": 3.92,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot065",
+    "description": "基于智能推荐的卫生健康系统",
+    "language": {
+      "JavaScript": 68.8,
+      "Vue": 11.22,
+      "HTML": 10.3,
+      "Java": 5,
+      "CSS": 4.67,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot066",
+    "description": "人事系统",
+    "language": {
+      "Vue": 69.79,
+      "Java": 28.19,
+      "JavaScript": 1.79,
+      "SCSS": 0.14,
+      "HTML": 0.07,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot067",
+    "description": "中小型医院网站",
+    "language": {
+      "JavaScript": 66.28,
+      "Vue": 12.28,
+      "HTML": 11.71,
+      "Java": 5.21,
+      "CSS": 4.5,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot068",
+    "description": "桂林旅游景点导游平台",
+    "language": {
+      "JavaScript": 71.86,
+      "Vue": 9.77,
+      "HTML": 9.31,
+      "CSS": 4.88,
+      "Java": 4.16,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot069",
+    "description": "视频网站系统的设计与实现",
+    "language": {
+      "JavaScript": 72.16,
+      "Vue": 9.75,
+      "HTML": 8.96,
+      "CSS": 4.9,
+      "Java": 4.22,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot070",
+    "description": "基于springboot的大创管理系统",
+    "language": {
+      "JavaScript": 66.68,
+      "Vue": 11.86,
+      "HTML": 11.66,
+      "Java": 5.26,
+      "CSS": 4.52,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot071",
+    "description": "基于springboot的图书进销存管理系统",
+    "language": {
+      "JavaScript": 67.93,
+      "Vue": 11.57,
+      "HTML": 10.91,
+      "Java": 4.97,
+      "CSS": 4.61,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot072",
+    "description": "基于JavaWeb技术的在线考试系统设计与实现",
+    "language": {
+      "JavaScript": 72.84,
+      "Vue": 9.58,
+      "HTML": 8.23,
+      "CSS": 4.94,
+      "Java": 4.39,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot073",
+    "description": "车辆管理系统设计与实现",
+    "language": {
+      "Vue": 68.59,
+      "Java": 29.81,
+      "JavaScript": 1.42,
+      "SCSS": 0.11,
+      "HTML": 0.06,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot074",
+    "description": "智能物流管理系统",
+    "language": {
+      "Vue": 69.13,
+      "Java": 29.12,
+      "JavaScript": 1.56,
+      "SCSS": 0.12,
+      "HTML": 0.06,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot075",
+    "description": "电影评论网站系统设计与实现",
+    "language": {
+      "JavaScript": 75.51,
+      "Vue": 8.49,
+      "HTML": 7.26,
+      "CSS": 5.13,
+      "Java": 3.6,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot076",
+    "description": "基于web的智慧社区设计与实现",
+    "language": {
+      "JavaScript": 64.36,
+      "Vue": 13.27,
+      "HTML": 12.15,
+      "Java": 5.84,
+      "CSS": 4.36,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot077",
+    "description": "基于SpringBoot的汽车票网上预订系统",
+    "language": {
+      "JavaScript": 74.23,
+      "Vue": 8.96,
+      "HTML": 8.08,
+      "CSS": 5.04,
+      "Java": 3.68,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot078",
+    "description": "民宿在线预定平台",
+    "language": {
+      "JavaScript": 73.57,
+      "Vue": 9.39,
+      "HTML": 7.75,
+      "CSS": 4.99,
+      "Java": 4.27,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot079",
+    "description": "信息化在线教学平台的设计与实现",
+    "language": {
+      "JavaScript": 77.33,
+      "Vue": 7.55,
+      "HTML": 6.76,
+      "CSS": 5.25,
+      "Java": 3.08,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot080",
+    "description": "房屋租赁管理系统的设计与实现",
+    "language": {
+      "JavaScript": 66.71,
+      "Vue": 12.12,
+      "HTML": 11.36,
+      "Java": 5.27,
+      "CSS": 4.53,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot082",
+    "description": "在线宠物用品交易网站的设计与实现",
+    "language": {
+      "JavaScript": 72.7,
+      "Vue": 9.9,
+      "HTML": 8.02,
+      "CSS": 4.93,
+      "Java": 4.44,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot084",
+    "description": "基于springboot的论坛网站",
+    "language": {
+      "JavaScript": 75.76,
+      "Vue": 8.06,
+      "HTML": 7.31,
+      "CSS": 5.14,
+      "Java": 3.71,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot086",
+    "description": "靓车汽车销售网站",
+    "language": {
+      "JavaScript": 68.29,
+      "Vue": 12.02,
+      "HTML": 9.71,
+      "Java": 5.33,
+      "CSS": 4.63,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot087",
+    "description": "植物健康系统",
+    "language": {
+      "JavaScript": 68.96,
+      "Vue": 10.87,
+      "HTML": 10.6,
+      "Java": 4.88,
+      "CSS": 4.68,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot089",
+    "description": "学生评奖评优管理系统的设计与实现",
+    "language": {
+      "JavaScript": 68.85,
+      "HTML": 10.96,
+      "Vue": 10.85,
+      "CSS": 4.67,
+      "Java": 4.66,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot090",
+    "description": "中小企业设备管理系统设计与实现",
+    "language": {
+      "Vue": 69.2,
+      "Java": 29.62,
+      "JavaScript": 1.06,
+      "SCSS": 0.08,
+      "HTML": 0.04,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot092",
+    "description": "安康旅游网站的设计与实现",
+    "language": {
+      "JavaScript": 59.38,
+      "Vue": 15.28,
+      "HTML": 14.56,
+      "Java": 6.75,
+      "CSS": 4.03,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot094",
+    "description": "基于web的酒店客房管理系统",
+    "language": {
+      "JavaScript": 62.27,
+      "Vue": 13.87,
+      "HTML": 13.37,
+      "Java": 6.25,
+      "CSS": 4.22,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot095",
+    "description": "���生宿舍信息的系统",
+    "language": {
+      "JavaScript": 56.97,
+      "HTML": 16.32,
+      "Vue": 16.05,
+      "Java": 6.79,
+      "CSS": 3.86,
+      "SCSS": 0.01,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot096",
+    "description": "基于springboot的租房管理系统",
+    "language": {
+      "JavaScript": 67.29,
+      "Vue": 11.93,
+      "HTML": 11.03,
+      "Java": 5.16,
+      "CSS": 4.57,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  },
+  {
+    "name": "springboot097",
+    "description": "大学生竞赛管理系统",
+    "language": {
+      "Vue": 68.59,
+      "Java": 29.28,
+      "JavaScript": 1.89,
+      "SCSS": 0.15,
+      "HTML": 0.08,
+      "Batchfile": 0.01
+    }
+  },
+  {
+    "name": "springboot098",
+    "description": "基于web的网上摄影工作室的开发与实现",
+    "language": {
+      "JavaScript": 76.33,
+      "Vue": 7.89,
+      "HTML": 7.22,
+      "CSS": 5.18,
+      "Java": 3.36,
+      "SCSS": 0.02,
+      "Batchfile": 0
+    }
+  }
+]
