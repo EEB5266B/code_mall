@@ -33,7 +33,7 @@ function renderProjects(projectsData) {
             language += `
                 <div class="progress" role="progressbar" aria-label="Segment ${key}" aria-valuenow="${value}" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-title="${key}" style="width: ${value}%">
                     <div class="progress-bar" style="background: ${pieChartColors[index]}"></div>
-                </div>       
+                </div>
             `
         })
 
@@ -67,7 +67,7 @@ function renderProjects(projectsData) {
 // 加载 JSON 数据
 async function loadProjects() {
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch('/projects.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
