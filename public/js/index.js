@@ -20,6 +20,33 @@ const pieChartColors = [
     '#3498DB', // 宝石蓝 - 深邃且富有吸引力。
     '#BE90D4'  // 浅紫 - 温柔而不失特色，为列表添加一些轻盈感。
 ];
+const detailsModal = document.getElementById('detailsModal')
+detailsModal.addEventListener('show.bs.modal', event => {
+	// Button that triggered the modal
+	const button = event.relatedTarget
+	// Extract info from data-bs-* attributes
+	const recipient = button.getAttribute('data-bs-whatever')
+	// If necessary, you could initiate an AJAX request here
+	// and then do the updating in a callback.
+	const modalTitle = detailsModal.querySelector('.modal-title')
+
+	modalTitle.textContent = `${recipient}`
+})
+
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+const forms = document.querySelectorAll('.needs-validation')
+
+// Loop over them and prevent submission
+Array.from(forms).forEach(form => {
+	form.addEventListener('submit', event => {
+		if (!form.checkValidity()) {
+			event.preventDefault()
+			event.stopPropagation()
+		}
+
+		form.classList.add('was-validated')
+	}, false)
+})
 
 // 渲染项目卡片
 function renderProjects(projectsData) {
@@ -42,7 +69,7 @@ function renderProjects(projectsData) {
                 <div class="card project-card">
                     <div class="card-header d-flex justify-content-between">
                         <span>${project.name}</span>
-                        <button type="button" class="btn btn-primary btn-sm">兑换</button>
+                        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detailsModal" data-bs-whatever="${project.name}">详情</button>
                     </div>
                     <div class="card-body">
                         <div>

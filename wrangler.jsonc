@@ -35,10 +35,27 @@
 	// "assets": {  "directory": "./public/",  "binding": "ASSETS" }
 	"assets": {
 		"directory": "./public/"
-	}
+	},
 	/**
 	 * Service Bindings (communicate between multiple Workers)
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
 	// "services": [  {   "binding": "MY_SERVICE",   "service": "my-service"  } ]
+
+	/**
+	 * D1 is Cloudflare's serverless SQL database. A Worker can query a D1 database (or databases) by creating a binding to each database for D1 Workers Binding API.
+	 */
+	"d1_databases": [
+		{
+			"binding": "CODE_MALL_DB",
+			"database_name": "code_mall",
+			"database_id": "9dcb801f-c10e-4aba-a5e5-4eb126ebbb14"
+		}
+	],
+	/**
+	 * You can add environment variables, which are a type of binding, to attach text strings or JSON values to your Worker. Environment variables are available on the env parameter passed to your Worker's fetch event handler.
+	 */
+	"vars": {
+
+	}
 }
