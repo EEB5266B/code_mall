@@ -23,24 +23,25 @@ export interface GoodsListResponse {
 export default async (request: IRequest, ...args: any[]): Promise<Response> => {
 	try {
 		const query = request.query
+		const bodyStr = await request.clone().text()
 		const body = await request.json<GoodsListRequest>()
 
-		console.log(`收到 /goofish/goods/list 请求, query 参数 ${JSON.stringify(query)}, body ${JSON.stringify(body)}`)
+		console.log(`收到 /goofish/goods/list 请求, query 参数 ${JSON.stringify(query)}, body ${bodyStr}`)
 
 		const mchId = query.mch_id
 		const timestamp = query.timestamp
 		const sign = query.sign
 
-		if (mchId && timestamp && sign && typeof mchId === 'string' && typeof timestamp === 'string' && typeof sign === 'string' && genSign(timestamp, JSON.stringify(body), sign)) {
+		if (mchId && timestamp && sign && typeof mchId === 'string' && typeof timestamp === 'string' && typeof sign === 'string' && genSign(timestamp, bodyStr, sign)) {
 			const { keyword, goods_type, page_no, page_size } = body
 
 			let whereClause = '1=1'
 			const binds: any[] = []
 
 			if (keyword) {
-				whereClause += ' AND goods_name LIKE ?'
+				whereClause += ' AND (goods_name LIKE ?'
 				binds.push(`%${keyword}%`)
-				whereClause += ' AND goods_no = ?'
+				whereClause += ' OR goods_no = ?)'
 				binds.push(`%${keyword}%`)
 			}
 
