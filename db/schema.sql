@@ -1,10 +1,12 @@
 DROP TABLE IF EXISTS order_cards;
-CREATE TABLE "order_cards"
+CREATE TABLE order_cards
 (
-	"id"           TEXT NOT NULL,
-	"order_id"     TEXT NOT NULL,
-	"create_time"  TEXT NOT NULL,
-	"consume_time" TEXT
+	id           TEXT NOT NULL,
+	order_no     TEXT NOT NULL,
+	goods_no     TEXT NOT NULL,
+	biz_order_no TEXT NOT NULL,
+	create_time  INTEGER NOT NULL,
+	consume_time INTEGER
 );
 
 DROP TABLE IF EXISTS goods;
