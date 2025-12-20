@@ -25,7 +25,7 @@ export default async (request: IRequest, ...args: any[]): Promise<Response> => {
 		const query = request.query
 		const body = await request.json<GoodsListRequest>()
 
-		console.log(`收到 /goofish/user/info 请求, query 参数 ${JSON.stringify(query)}, body ${JSON.stringify(body)}`)
+		console.log(`收到 /goofish/goods/list 请求, query 参数 ${JSON.stringify(query)}, body ${JSON.stringify(body)}`)
 
 		const mchId = query.mch_id
 		const timestamp = query.timestamp
@@ -35,13 +35,18 @@ export default async (request: IRequest, ...args: any[]): Promise<Response> => {
 			const { keyword, goods_type, page_no, page_size } = body
 
 			let whereClause = '1=1'
-			const binds: string[] = []
+			const binds: any[] = []
 
 			if (keyword) {
 				whereClause += ' AND goods_name LIKE ?'
 				binds.push(`%${keyword}%`)
 				whereClause += ' AND goods_no = ?'
 				binds.push(`%${keyword}%`)
+			}
+
+			if (goods_type) {
+				whereClause += ' AND goods_type = ?'
+				binds.push(goods_type)
 			}
 
 			const countStmt = env.CODE_MALL_DB.prepare(`SELECT COUNT(*) AS count FROM goods WHERE ${whereClause}`)
@@ -58,7 +63,7 @@ export default async (request: IRequest, ...args: any[]): Promise<Response> => {
 				goodsList.results.forEach((goodsItem) => {
 					list.push({
 						goods_no: goodsItem.goods_no,
-						goods_type: 2,
+						goods_type: goodsItem.goods_type,
 						goods_name: goodsItem.goods_name,
 						price: goodsItem.price,
 						stock: goodsItem.stock,

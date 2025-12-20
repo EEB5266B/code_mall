@@ -14,6 +14,7 @@ create table goods
 	goods_name  TEXT    not null,
 	price       INTEGER not null,
 	stock       INTEGER not null,
+	goods_type INTEGER not null,
 	status      INTEGER not null,
 	update_time INTEGER not null
 );
