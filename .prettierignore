@@ -1,0 +1,36 @@
+# 依赖目录
+node_modules/
+bootstrap*
+
+# 构建输出目录
+dist/
+build/
+out/
+.cache/
+
+# 静态资源或无需格式化的文件
+*.min.js
+*.min.css
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# 配置文件（可选）
+.env
+.env.local
+
+# 日志或临时文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE 或编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

@@ -1,5 +1,5 @@
-import {IRequest} from "itty-router";
-import {genSign, responseBody, responseErrorBody} from "../../../common/utils/goofishUtil"
+import { IRequest } from 'itty-router'
+import { genSign, responseBody, responseErrorBody } from '../../../common/utils/goofishUtil'
 
 export default async (request: IRequest, ...args: any[]): Promise<Response> => {
 	try {
@@ -13,8 +13,7 @@ export default async (request: IRequest, ...args: any[]): Promise<Response> => {
 		const sign = query.sign
 
 		if (mchId && timestamp && sign && typeof mchId === 'string' && typeof timestamp === 'string' && typeof sign === 'string' && genSign(timestamp, body, sign)) {
-
-			return new Response(responseBody({balance: 1000}))
+			return new Response(responseBody({ balance: 10000 }))
 		}
 	} catch (e) {
 		console.error(e)

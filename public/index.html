@@ -1,45 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Mall</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Code Mall</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+	</head>
+	<body class="py-3">
+		<div class="container-fluid">
+			<div class="row g-4" id="projects-container"></div>
+		</div>
 
-</head>
-<body class="py-3">
-<div class="container-fluid">
-    <div class="row g-4" id="projects-container"></div>
-</div>
-
-<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-xl">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h1 class="modal-title fs-5" id="detailsModalLabel">Title</h1>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-body">
-
-			</div>
-			<div class="modal-footer">
-				<form class="row needs-validation w-100" novalidate>
-					<div class="col-10">
-						<label for="key" class="visually-hidden">卡密</label>
-						<input type="text" class="form-control" id="key" placeholder="卡密" required>
-						<div class="invalid-feedback">
-							请输入卡密.
-						</div>
+		<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="detailsModalLabel">Title</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
-					<div class="col-2 d-grid">
-						<button type="submit" class="btn btn-primary">兑换</button>
+					<div class="modal-body"></div>
+					<div class="modal-footer">
+						<form class="row needs-validation w-100" novalidate>
+							<div class="col-10">
+								<label for="key" class="visually-hidden">卡密</label>
+								<input type="text" class="form-control" id="key" placeholder="卡密" required />
+								<div class="invalid-feedback">请输入卡密.</div>
+							</div>
+							<div class="col-2 d-grid">
+								<button type="submit" class="btn btn-primary">兑换</button>
+							</div>
+						</form>
 					</div>
-				</form>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/index.js"></script>
-</body>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
 </html>

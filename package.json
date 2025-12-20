@@ -7,11 +7,13 @@
 		"dev": "wrangler dev --ip 0.0.0.0",
 		"start": "wrangler dev",
 		"test": "vitest",
+		"format": "prettier --write .",
 		"cf-typegen": "wrangler types"
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.11.1",
 		"@types/crypto-js": "^4.2.2",
+		"prettier": "^3.7.4",
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.56.0"

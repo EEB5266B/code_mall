@@ -8,7 +8,7 @@
 	"main": "src/index.ts",
 	"compatibility_date": "2025-12-17",
 	"observability": {
-		"enabled": true
+		"enabled": true,
 	},
 	/**
 	 * Smart Placement
@@ -34,7 +34,7 @@
 	 */
 	// "assets": {  "directory": "./public/",  "binding": "ASSETS" }
 	"assets": {
-		"directory": "./public/"
+		"directory": "./public/",
 	},
 	/**
 	 * Service Bindings (communicate between multiple Workers)
@@ -49,13 +49,11 @@
 		{
 			"binding": "CODE_MALL_DB",
 			"database_name": "code_mall",
-			"database_id": "9dcb801f-c10e-4aba-a5e5-4eb126ebbb14"
-		}
+			"database_id": "9dcb801f-c10e-4aba-a5e5-4eb126ebbb14",
+		},
 	],
 	/**
 	 * You can add environment variables, which are a type of binding, to attach text strings or JSON values to your Worker. Environment variables are available on the env parameter passed to your Worker's fetch event handler.
 	 */
-	"vars": {
-
-	}
+	"vars": {},
 }
