@@ -136,11 +136,11 @@ Array.from(document.querySelectorAll('.needs-validation')).forEach((form) => {
 
 			if (form.checkValidity() && goods) {
 				exchangeButtonLoading(true)
-				const response = await fetch(`/api/goods/exchange/${goods}/${key | keyInput.value}`)
+				const response = await fetch(`/api/goods/exchange/${goods}/${key || keyInput.value}`)
 				exchangeButtonLoading(false)
 
 				if (response.ok) {
-					window.location.href = `/api/goods/download/${key | keyInput.value}`
+					window.location.href = `/api/goods/download/${key || keyInput.value}`
 				} else {
 					showToast('错误', await response.text(), 'error')
 				}
