@@ -1,59 +1,28 @@
-const pieChartColors = [
-	'#36A2EB', // 天蓝 - 清新、宁静，适合作为起始色。
-	'#FF6384', // 玫红 - 充满活力，吸引注意力。
-	'#FFCE56', // 明黄 - 温暖明亮，增加积极感。
-	'#4BC0C0', // 青绿 - 自然清新，给人舒适之感。
-	'#8AC926', // 草绿 - 生机勃勃，代表生长和活力。
-	'#1982C4', // 深蓝 - 提供稳定性和深度，增强信任感。
-	'#F15BB5', // 亮粉 - 富有趣味性，打破单调。
-	'#FF9F40', // 橙色 - 温暖激励，提升整体亮度。
-	'#6A4C93', // 葡萄紫 - 带有神秘感，增添奢华气息。
-	'#9966FF', // 紫罗兰 - 艺术感强，介于蓝色和红色之间。
-	'#FF6B6B', // 柔和红 - 较玫红柔和，但依然醒目。
-	'#4ECDC4', // 海蓝 - 更深沉的青绿色调，带来稳重感。
-	'#58B19F', // 深海绿 - 类似海蓝，但更加独特。
-	'#D64550', // 砖红 - 强烈而温暖，提供良好的对比。
-	'#3E8EDE', // 明朗蓝 - 接近天蓝，但更明亮。
-	'#F7DC6F', // 淡黄 - 比明黄更为温和，易于配色。
-	'#2ECC71', // 亮草绿 - 更加生动的绿色，充满活力。
-	'#E74C3C', // 强烈红 - 极具冲击力的颜色。
-	'#3498DB', // 宝石蓝 - 深邃且富有吸引力。
-	'#BE90D4', // 浅紫 - 温柔而不失特色，为列表添加一些轻盈感。
-]
+const pieChartColors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#8AC926', '#1982C4', '#F15BB5', '#FF9F40', '#6A4C93', '#9966FF', '#FF6B6B', '#4ECDC4', '#58B19F', '#D64550', '#3E8EDE', '#F7DC6F', '#2ECC71', '#E74C3C', '#3498DB', '#BE90D4']
+const searchParams = new URLSearchParams(window.location.search)
+const key = searchParams.get('key')
+let goods = ''
+
 const detailsModal = document.getElementById('detailsModal')
-detailsModal.addEventListener('show.bs.modal', (event) => {
-	// Button that triggered the modal
-	const button = event.relatedTarget
-	// Extract info from data-bs-* attributes
-	const recipient = button.getAttribute('data-bs-whatever')
-	// If necessary, you could initiate an AJAX request here
-	// and then do the updating in a callback.
-	const modalTitle = detailsModal.querySelector('.modal-title')
+const exchangeButton = document.getElementById('exchangeButton')
+const keyInput = document.getElementById('key')
+const toastContainer = document.getElementById('toast-container')
 
-	modalTitle.textContent = `${recipient}`
-})
-
-// Fetch all the forms we want to apply custom Bootstrap validation styles to
-const forms = document.querySelectorAll('.needs-validation')
-
-// Loop over them and prevent submission
-Array.from(forms).forEach((form) => {
-	form.addEventListener(
-		'submit',
-		(event) => {
-			if (!form.checkValidity()) {
-				event.preventDefault()
-				event.stopPropagation()
-			}
-
-			form.classList.add('was-validated')
-		},
-		false,
-	)
-})
+const exchangeButtonLoading = (loading) => {
+	if (loading) {
+		exchangeButton.disabled = true
+		exchangeButton.innerHTML = `
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span role="status">兑换中...</span>
+      `
+	} else {
+		exchangeButton.disabled = false
+		exchangeButton.innerHTML = '兑换'
+	}
+}
 
 // 渲染项目卡片
-function renderProjects(projectsData) {
+const renderProjects = (projectsData) => {
 	const container = document.getElementById('projects-container')
 	container.innerHTML = ''
 	projectsData.forEach((project, index) => {
@@ -90,27 +59,95 @@ function renderProjects(projectsData) {
         `
 		container.innerHTML += projectCard
 	})
-	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-	const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl))
+	const tooltipTriggerList = [...document.querySelectorAll('[data-bs-toggle="tooltip"]')]
+	tooltipTriggerList.map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl))
 }
 
-// 加载 JSON 数据
-async function loadProjects() {
-	try {
-		const response = await fetch('/projects.json')
-		if (!response.ok) {
-			throw new Error(`HTTP error! status: ${response.status}`)
-		}
+function showToast(title, message, type = 'info') {
+	const toastId = 'toast-' + Date.now()
+
+	let bgClass = ''
+	switch (type) {
+		case 'success':
+			bgClass = 'text-bg-success'
+			break
+		case 'error':
+		case 'danger':
+			bgClass = 'text-bg-danger'
+			break
+		case 'warning':
+			bgClass = 'text-bg-warning'
+			break
+		default:
+			bgClass = 'text-bg-info'
+	}
+
+	const toastHTML = `
+		<div id="${toastId}" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+			<div class="toast-header">
+				<span class="badge ${bgClass} me-2">&nbsp;</span>
+				<strong class="me-auto">${title}</strong>
+				<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+			</div>
+			<div class="toast-body">
+				${message}
+			</div>
+		</div>
+	`
+
+	toastContainer.insertAdjacentHTML('beforeend', toastHTML)
+
+	const toastElement = document.getElementById(toastId)
+	const toast = new bootstrap.Toast(toastElement, {
+		autohide: true,
+		delay: 5000,
+	})
+	toast.show()
+
+	toastElement.addEventListener('hidden.bs.toast', () => {
+		toastElement.remove()
+	})
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+	const response = await fetch('/projects.json')
+	if (response.ok) {
 		const projectsData = await response.json()
 		renderProjects(projectsData)
-	} catch (error) {
-		console.error('Failed to load projects:', error)
-		document.getElementById('loading').classList.add('d-none')
-		const errorMsg = document.getElementById('error-message')
-		errorMsg.textContent = '❌ 无法加载项目数据，请检查 projects.json 文件是否存在。'
-		errorMsg.classList.remove('d-none')
 	}
-}
+})
 
-// 页面加载完成后执行
-document.addEventListener('DOMContentLoaded', loadProjects)
+detailsModal.addEventListener('show.bs.modal', (event) => {
+	goods = event.relatedTarget.getAttribute('data-bs-whatever')
+	detailsModal.querySelector('.modal-title').innerHTML = goods
+
+	if (key) {
+		keyInput.value = key
+		keyInput.disabled = true
+	}
+})
+
+Array.from(document.querySelectorAll('.needs-validation')).forEach((form) => {
+	form.addEventListener(
+		'submit',
+		async (event) => {
+			event.preventDefault()
+			event.stopPropagation()
+
+			if (form.checkValidity() && goods) {
+				exchangeButtonLoading(true)
+				const response = await fetch(`/api/goods/exchange/${goods}/${key | keyInput.value}`)
+				exchangeButtonLoading(false)
+
+				if (response.ok) {
+					window.location.href = `/api/goods/download/${key | keyInput.value}`
+				} else {
+					showToast('错误', await response.text(), 'error')
+				}
+			}
+
+			form.classList.add('was-validated')
+		},
+		false,
+	)
+})
