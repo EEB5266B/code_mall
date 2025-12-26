@@ -2,6 +2,7 @@
 	{
 		"name": "springboot001",
 		"description": "基于SpringBoot的在线拍卖系统",
+		"size": 21820,
 		"language": {
 			"JavaScript": 75.36,
 			"Vue": 8.63,
@@ -15,6 +16,7 @@
 	{
 		"name": "springboot002",
 		"description": "基于springboot的医护人员排班系统",
+		"size": 15103,
 		"language": {
 			"JavaScript": 69.58,
 			"Vue": 10.74,
@@ -28,6 +30,7 @@
 	{
 		"name": "springboot003",
 		"description": "图书个性化推荐系统的设计与实现",
+		"size": 25663,
 		"language": {
 			"JavaScript": 72.81,
 			"Vue": 9.97,
@@ -41,6 +44,7 @@
 	{
 		"name": "springboot004",
 		"description": "网页时装购物系统",
+		"size": 23189,
 		"language": {
 			"JavaScript": 70.28,
 			"Vue": 11.2,
@@ -54,6 +58,7 @@
 	{
 		"name": "springboot005",
 		"description": "学生心理咨询评估系统",
+		"size": 9678,
 		"language": {
 			"Vue": 64.03,
 			"Java": 32.63,
@@ -66,6 +71,7 @@
 	{
 		"name": "springboot006",
 		"description": "基于SpringBoot的网上订餐系统",
+		"size": 23016,
 		"language": {
 			"JavaScript": 77.55,
 			"Vue": 7.06,
@@ -79,6 +85,7 @@
 	{
 		"name": "springboot007",
 		"description": "大学生租房平台的设计与实现",
+		"size": 19744,
 		"language": {
 			"JavaScript": 75.32,
 			"Vue": 8.11,
@@ -92,6 +99,7 @@
 	{
 		"name": "springboot008",
 		"description": "房屋租赁系统",
+		"size": 22793,
 		"language": {
 			"JavaScript": 61.9,
 			"Vue": 14.39,
@@ -105,6 +113,7 @@
 	{
 		"name": "springboot009",
 		"description": "月度员工绩效考核管理系统",
+		"size": 10697,
 		"language": {
 			"Vue": 70.33,
 			"Java": 27.45,
@@ -117,6 +126,7 @@
 	{
 		"name": "springboot010",
 		"description": "大学生入学审核系统的设计与实现",
+		"size": 10778,
 		"language": {
 			"Vue": 68.21,
 			"Java": 28.75,
@@ -129,6 +139,7 @@
 	{
 		"name": "springboot011",
 		"description": "基于springboot的课程作业管理系统",
+		"size": 18624,
 		"language": {
 			"Vue": 71.4,
 			"Java": 27.36,
@@ -141,6 +152,7 @@
 	{
 		"name": "springboot012",
 		"description": "基于springboot的社区团购系统设计",
+		"size": 21519,
 		"language": {
 			"JavaScript": 70.77,
 			"Vue": 10.5,
@@ -154,6 +166,7 @@
 	{
 		"name": "springboot013",
 		"description": "基于SpringBoot的旅游网站的设计与实现",
+		"size": 27066,
 		"language": {
 			"JavaScript": 69.94,
 			"Vue": 11.16,
@@ -167,6 +180,7 @@
 	{
 		"name": "springboot014",
 		"description": "校园管理系统的设计与实现",
+		"size": 19876,
 		"language": {
 			"Vue": 70.75,
 			"Java": 27.55,
@@ -179,6 +193,7 @@
 	{
 		"name": "springboot015",
 		"description": "基于SpringBoot的在线视频教育平台的设计与实现",
+		"size": 24327,
 		"language": {
 			"JavaScript": 72.43,
 			"Vue": 9.63,
@@ -192,6 +207,7 @@
 	{
 		"name": "springboot016",
 		"description": "房产销售系统",
+		"size": 51391,
 		"language": {
 			"JavaScript": 69.36,
 			"HTML": 10.9,
@@ -205,6 +221,7 @@
 	{
 		"name": "springboot017",
 		"description": "学生读书笔记共享",
+		"size": 19177,
 		"language": {
 			"JavaScript": 74.87,
 			"Vue": 8.68,
@@ -218,6 +235,7 @@
 	{
 		"name": "springboot018",
 		"description": "母婴商城",
+		"size": 14550,
 		"language": {
 			"JavaScript": 73.11,
 			"Vue": 10.9,
@@ -231,6 +249,7 @@
 	{
 		"name": "springboot019",
 		"description": "高校心理教育辅导设计与实现",
+		"size": 21728,
 		"language": {
 			"JavaScript": 71.22,
 			"Vue": 10.51,
@@ -244,6 +263,7 @@
 	{
 		"name": "springboot020",
 		"description": "基于Java的免税商品优选购物商城设计与实现代码",
+		"size": 23315,
 		"language": {
 			"JavaScript": 68.25,
 			"Vue": 11.74,
@@ -257,6 +277,7 @@
 	{
 		"name": "springboot021",
 		"description": "校园周边美食探索及分享平台的设计与实现",
+		"size": 22445,
 		"language": {
 			"JavaScript": 75.83,
 			"HTML": 7.9,
@@ -270,6 +291,7 @@
 	{
 		"name": "springboot022",
 		"description": "蜗牛兼职网的设计与实现",
+		"size": 26980,
 		"language": {
 			"JavaScript": 76.8,
 			"Vue": 7.58,
@@ -283,6 +305,7 @@
 	{
 		"name": "springboot023",
 		"description": "学生宿舍管理系统的设计与开发",
+		"size": 10496,
 		"language": {
 			"Vue": 70.6,
 			"Java": 27.9,
@@ -295,6 +318,7 @@
 	{
 		"name": "springboot024",
 		"description": "基于SpringBoot的企业客户管理系统的设计与实现",
+		"size": 16878,
 		"language": {
 			"Vue": 70.83,
 			"Java": 27.14,
@@ -307,6 +331,7 @@
 	{
 		"name": "springboot025",
 		"description": "基于SpringBoot网上超市的设计与实现",
+		"size": 24313,
 		"language": {
 			"JavaScript": 71.5,
 			"Vue": 10.66,
@@ -320,6 +345,7 @@
 	{
 		"name": "springboot026",
 		"description": "基于SpringBoot的在线文档管理系统的设计与实现",
+		"size": 26407,
 		"language": {
 			"Vue": 69.62,
 			"Java": 27.8,
@@ -332,6 +358,7 @@
 	{
 		"name": "springboot027",
 		"description": "网上点餐系统",
+		"size": 23812,
 		"language": {
 			"JavaScript": 72.67,
 			"Vue": 9.59,
@@ -345,6 +372,7 @@
 	{
 		"name": "springboot028",
 		"description": "基于springboot的房屋租赁系统",
+		"size": 21808,
 		"language": {
 			"JavaScript": 68.28,
 			"HTML": 11.37,
@@ -358,6 +386,7 @@
 	{
 		"name": "springboot029",
 		"description": "基于springboot的网上购物商城系统研发",
+		"size": 18694,
 		"language": {
 			"JavaScript": 71.91,
 			"Vue": 9.99,
@@ -371,6 +400,7 @@
 	{
 		"name": "springboot030",
 		"description": "甘肃非物质文化网站的设计与开发",
+		"size": 37039,
 		"language": {
 			"JavaScript": 72.12,
 			"Vue": 11.71,
@@ -384,6 +414,7 @@
 	{
 		"name": "springboot031",
 		"description": "教师工作量管理系统",
+		"size": 16211,
 		"language": {
 			"JavaScript": 77.65,
 			"Vue": 7.3,
@@ -397,6 +428,7 @@
 	{
 		"name": "springboot032",
 		"description": "阿博图书馆管理系统",
+		"size": 24207,
 		"language": {
 			"JavaScript": 70.53,
 			"Vue": 10.91,
@@ -410,6 +442,7 @@
 	{
 		"name": "springboot033",
 		"description": "小徐影城管理系统",
+		"size": 28935,
 		"language": {
 			"JavaScript": 70.79,
 			"Vue": 10.62,
@@ -423,6 +456,7 @@
 	{
 		"name": "springboot034",
 		"description": "在线商城系统设计与开发-代码",
+		"size": 26731,
 		"language": {
 			"JavaScript": 73.11,
 			"Vue": 10.9,
@@ -436,6 +470,7 @@
 	{
 		"name": "springboot035",
 		"description": "学科竞赛管理",
+		"size": 20801,
 		"language": {
 			"JavaScript": 75.01,
 			"HTML": 8.45,
@@ -449,6 +484,7 @@
 	{
 		"name": "springboot036",
 		"description": "海滨体育馆管理系统的设计与实现",
+		"size": 17550,
 		"language": {
 			"JavaScript": 68.85,
 			"Vue": 11.07,
@@ -462,6 +498,7 @@
 	{
 		"name": "springboot037",
 		"description": "基于SpringBoot的墙绘产品展示交易平台的设计与实现",
+		"size": 97371,
 		"language": {
 			"JavaScript": 72.29,
 			"Vue": 11.91,
@@ -475,6 +512,7 @@
 	{
 		"name": "springboot038",
 		"description": "基于SpringBoot的网上租赁系统设计与实现",
+		"size": 18332,
 		"language": {
 			"JavaScript": 65.2,
 			"Vue": 12.66,
@@ -488,6 +526,7 @@
 	{
 		"name": "springboot039",
 		"description": "基于Web足球青训俱乐部管理后台系统开发",
+		"size": 21794,
 		"language": {
 			"JavaScript": 69.58,
 			"Vue": 10.8,
@@ -501,6 +540,7 @@
 	{
 		"name": "springboot040",
 		"description": "社区医院信息平台",
+		"size": 12280,
 		"language": {
 			"JavaScript": 64.01,
 			"HTML": 13.67,
@@ -514,6 +554,7 @@
 	{
 		"name": "springboot041",
 		"description": "师生健康信息管理系统",
+		"size": 14287,
 		"language": {
 			"Vue": 70.28,
 			"Java": 28.11,
@@ -526,6 +567,7 @@
 	{
 		"name": "springboot042",
 		"description": "IT技术交流和分享平台的设计与实现",
+		"size": 17666,
 		"language": {
 			"JavaScript": 78.94,
 			"Vue": 6.68,
@@ -539,6 +581,7 @@
 	{
 		"name": "springboot043",
 		"description": "基于springboot的“衣依”服装销售平台的设计与实现",
+		"size": 17906,
 		"language": {
 			"JavaScript": 70.37,
 			"Vue": 11.04,
@@ -552,6 +595,7 @@
 	{
 		"name": "springboot044",
 		"description": "美容院管理系统",
+		"size": 16363,
 		"language": {
 			"JavaScript": 55.93,
 			"Vue": 16.95,
@@ -565,6 +609,7 @@
 	{
 		"name": "springboot045",
 		"description": "新闻推荐系统",
+		"size": 16031,
 		"language": {
 			"JavaScript": 77.24,
 			"Vue": 7.22,
@@ -578,6 +623,7 @@
 	{
 		"name": "springboot046",
 		"description": "古典舞在线交流平台的设计与实现",
+		"size": 22470,
 		"language": {
 			"JavaScript": 62.58,
 			"Vue": 14.17,
@@ -591,6 +637,7 @@
 	{
 		"name": "springboot047",
 		"description": "大学生就业招聘系统的设计与实现",
+		"size": 17678,
 		"language": {
 			"JavaScript": 72.47,
 			"HTML": 9.51,
@@ -604,6 +651,7 @@
 	{
 		"name": "springboot048",
 		"description": "校园资料分享平台",
+		"size": 19052,
 		"language": {
 			"JavaScript": 76.13,
 			"Vue": 8.08,
@@ -617,6 +665,7 @@
 	{
 		"name": "springboot049",
 		"description": "在线教育系统设计与实现",
+		"size": 22725,
 		"language": {
 			"JavaScript": 65.2,
 			"Vue": 13.17,
@@ -630,6 +679,7 @@
 	{
 		"name": "springboot050",
 		"description": "星之语明星周边产品销售网站的设计与实现",
+		"size": 13963,
 		"language": {
 			"JavaScript": 70.76,
 			"Vue": 10.78,
@@ -643,6 +693,7 @@
 	{
 		"name": "springboot051",
 		"description": "医院管理系统",
+		"size": 16493,
 		"language": {
 			"JavaScript": 69.68,
 			"HTML": 10.61,
@@ -656,6 +707,7 @@
 	{
 		"name": "springboot052",
 		"description": "旅游管理系统的设计与实现",
+		"size": 19971,
 		"language": {
 			"JavaScript": 76.99,
 			"Vue": 7.55,
@@ -669,6 +721,7 @@
 	{
 		"name": "springboot053",
 		"description": "宠物咖啡馆平台的设计与实现",
+		"size": 16566,
 		"language": {
 			"JavaScript": 59.65,
 			"HTML": 15.01,
@@ -682,6 +735,7 @@
 	{
 		"name": "springboot054",
 		"description": "飘香水果购物网站的设计与实现",
+		"size": 20126,
 		"language": {
 			"JavaScript": 64.92,
 			"Vue": 12.95,
@@ -695,6 +749,7 @@
 	{
 		"name": "springboot055",
 		"description": "服装生产管理的设计与实现",
+		"size": 21073,
 		"language": {
 			"JavaScript": 67.84,
 			"Vue": 11.76,
@@ -708,6 +763,7 @@
 	{
 		"name": "springboot056",
 		"description": "教学资源库",
+		"size": 36798,
 		"language": {
 			"JavaScript": 66.65,
 			"Vue": 11.96,
@@ -721,6 +777,7 @@
 	{
 		"name": "springboot057",
 		"description": "洗衣店订单管理系统",
+		"size": 17668,
 		"language": {
 			"JavaScript": 70.03,
 			"Vue": 10.6,
@@ -734,6 +791,7 @@
 	{
 		"name": "springboot058",
 		"description": "美发门店管理系统",
+		"size": 14143,
 		"language": {
 			"JavaScript": 67.84,
 			"Vue": 11.68,
@@ -747,6 +805,7 @@
 	{
 		"name": "springboot059",
 		"description": "课程答疑系统",
+		"size": 19896,
 		"language": {
 			"JavaScript": 68.78,
 			"HTML": 11.04,
@@ -760,6 +819,7 @@
 	{
 		"name": "springboot060",
 		"description": "师生共评的作业管理系统设计与实现",
+		"size": 16407,
 		"language": {
 			"JavaScript": 70.37,
 			"HTML": 10.74,
@@ -773,6 +833,7 @@
 	{
 		"name": "springboot061",
 		"description": "基于B2B平台的医疗病历交互系统",
+		"size": 16276,
 		"language": {
 			"JavaScript": 59.53,
 			"HTML": 15.29,
@@ -786,6 +847,7 @@
 	{
 		"name": "springboot062",
 		"description": "购物推荐网站的设计与实现",
+		"size": 15766,
 		"language": {
 			"JavaScript": 72.98,
 			"Vue": 9.93,
@@ -799,6 +861,7 @@
 	{
 		"name": "springboot063",
 		"description": "知识管理系统",
+		"size": 18642,
 		"language": {
 			"JavaScript": 70.27,
 			"Vue": 10.63,
@@ -812,6 +875,7 @@
 	{
 		"name": "springboot064",
 		"description": "高校学科竞赛平台",
+		"size": 17937,
 		"language": {
 			"JavaScript": 57.73,
 			"HTML": 15.83,
@@ -825,6 +889,7 @@
 	{
 		"name": "springboot065",
 		"description": "基于智能推荐的卫生健康系统",
+		"size": 17644,
 		"language": {
 			"JavaScript": 68.8,
 			"Vue": 11.22,
@@ -838,6 +903,7 @@
 	{
 		"name": "springboot066",
 		"description": "人事系统",
+		"size": 9051,
 		"language": {
 			"Vue": 69.79,
 			"Java": 28.19,
@@ -850,6 +916,7 @@
 	{
 		"name": "springboot067",
 		"description": "中小型医院网站",
+		"size": 20748,
 		"language": {
 			"JavaScript": 66.28,
 			"Vue": 12.28,
@@ -863,6 +930,7 @@
 	{
 		"name": "springboot068",
 		"description": "桂林旅游景点导游平台",
+		"size": 18364,
 		"language": {
 			"JavaScript": 71.86,
 			"Vue": 9.77,
@@ -876,6 +944,7 @@
 	{
 		"name": "springboot069",
 		"description": "视频网站系统的设计与实现",
+		"size": 16053,
 		"language": {
 			"JavaScript": 72.16,
 			"Vue": 9.75,
@@ -889,6 +958,7 @@
 	{
 		"name": "springboot070",
 		"description": "基于springboot的大创管理系统",
+		"size": 16832,
 		"language": {
 			"JavaScript": 66.68,
 			"Vue": 11.86,
@@ -902,6 +972,7 @@
 	{
 		"name": "springboot071",
 		"description": "基于springboot的图书进销存管理系统",
+		"size": 17326,
 		"language": {
 			"JavaScript": 67.93,
 			"Vue": 11.57,
@@ -915,6 +986,7 @@
 	{
 		"name": "springboot072",
 		"description": "基于JavaWeb技术的在线考试系统设计与实现",
+		"size": 16598,
 		"language": {
 			"JavaScript": 72.84,
 			"Vue": 9.58,
@@ -928,6 +1000,7 @@
 	{
 		"name": "springboot073",
 		"description": "车辆管理系统设计与实现",
+		"size": 11722,
 		"language": {
 			"Vue": 68.59,
 			"Java": 29.81,
@@ -940,6 +1013,7 @@
 	{
 		"name": "springboot074",
 		"description": "智能物流管理系统",
+		"size": 10751,
 		"language": {
 			"Vue": 69.13,
 			"Java": 29.12,
@@ -952,6 +1026,7 @@
 	{
 		"name": "springboot075",
 		"description": "电影评论网站系统设计与实现",
+		"size": 19144,
 		"language": {
 			"JavaScript": 75.51,
 			"Vue": 8.49,
@@ -965,6 +1040,7 @@
 	{
 		"name": "springboot076",
 		"description": "基于web的智慧社区设计与实现",
+		"size": 19711,
 		"language": {
 			"JavaScript": 64.36,
 			"Vue": 13.27,
@@ -977,7 +1053,8 @@
 	},
 	{
 		"name": "springboot077",
-		"description": "基于SpringBoot的汽车票网上预订系统",
+		"description": "基于SpringBoot��汽车票网上预订系统",
+		"size": 14424,
 		"language": {
 			"JavaScript": 74.23,
 			"Vue": 8.96,
@@ -991,6 +1068,7 @@
 	{
 		"name": "springboot078",
 		"description": "民宿在线预定平台",
+		"size": 18098,
 		"language": {
 			"JavaScript": 73.57,
 			"Vue": 9.39,
@@ -1004,6 +1082,7 @@
 	{
 		"name": "springboot079",
 		"description": "信息化在线教学平台的设计与实现",
+		"size": 15993,
 		"language": {
 			"JavaScript": 77.33,
 			"Vue": 7.55,
@@ -1017,6 +1096,7 @@
 	{
 		"name": "springboot080",
 		"description": "房屋租赁管理系统的设计与实现",
+		"size": 13377,
 		"language": {
 			"JavaScript": 66.71,
 			"Vue": 12.12,
@@ -1030,6 +1110,7 @@
 	{
 		"name": "springboot082",
 		"description": "在线宠物用品交易网站的设计与实现",
+		"size": 18476,
 		"language": {
 			"JavaScript": 72.7,
 			"Vue": 9.9,
@@ -1043,6 +1124,7 @@
 	{
 		"name": "springboot084",
 		"description": "基于springboot的论坛网站",
+		"size": 15770,
 		"language": {
 			"JavaScript": 75.76,
 			"Vue": 8.06,
@@ -1056,6 +1138,7 @@
 	{
 		"name": "springboot086",
 		"description": "靓车汽车销售网站",
+		"size": 18017,
 		"language": {
 			"JavaScript": 68.29,
 			"Vue": 12.02,
@@ -1069,6 +1152,7 @@
 	{
 		"name": "springboot087",
 		"description": "植物健康系统",
+		"size": 17812,
 		"language": {
 			"JavaScript": 68.96,
 			"Vue": 10.87,
@@ -1082,6 +1166,7 @@
 	{
 		"name": "springboot089",
 		"description": "学生评奖评优管理系统的设计与实现",
+		"size": 18926,
 		"language": {
 			"JavaScript": 68.85,
 			"HTML": 10.96,
@@ -1095,6 +1180,7 @@
 	{
 		"name": "springboot090",
 		"description": "中小企业设备管理系统设计与实现",
+		"size": 9517,
 		"language": {
 			"Vue": 69.2,
 			"Java": 29.62,
@@ -1107,6 +1193,7 @@
 	{
 		"name": "springboot092",
 		"description": "安康旅游网站的设计与实现",
+		"size": 23985,
 		"language": {
 			"JavaScript": 59.38,
 			"Vue": 15.28,
@@ -1120,6 +1207,7 @@
 	{
 		"name": "springboot094",
 		"description": "基于web的酒店客房管理系统",
+		"size": 19239,
 		"language": {
 			"JavaScript": 62.27,
 			"Vue": 13.87,
@@ -1132,7 +1220,8 @@
 	},
 	{
 		"name": "springboot095",
-		"description": "���生宿舍信息的系统",
+		"description": "学生宿舍信息的系统",
+		"size": 18879,
 		"language": {
 			"JavaScript": 56.97,
 			"HTML": 16.32,
@@ -1146,6 +1235,7 @@
 	{
 		"name": "springboot096",
 		"description": "基于springboot的租房管理系统",
+		"size": 16386,
 		"language": {
 			"JavaScript": 67.29,
 			"Vue": 11.93,
@@ -1159,6 +1249,7 @@
 	{
 		"name": "springboot097",
 		"description": "大学生竞赛管理系统",
+		"size": 9807,
 		"language": {
 			"Vue": 68.59,
 			"Java": 29.28,
@@ -1171,6 +1262,7 @@
 	{
 		"name": "springboot098",
 		"description": "基于web的网上摄影工作室的开发与实现",
+		"size": 18355,
 		"language": {
 			"JavaScript": 76.33,
 			"Vue": 7.89,

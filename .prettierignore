@@ -33,4 +33,5 @@ yarn-error.log*
 .idea/
 *.swp
 *.swo
+*.md
 .DS_Store

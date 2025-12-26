@@ -6,7 +6,8 @@ let goods = ''
 const detailsModal = document.getElementById('detailsModal')
 const exchangeButton = document.getElementById('exchangeButton')
 const keyInput = document.getElementById('key')
-const toastContainer = document.getElementById('toast-container')
+const toastContainer = document.getElementById('toastContainer')
+const modalBodyContent = document.getElementById('modalBodyContent')
 
 const exchangeButtonLoading = (loading) => {
 	if (loading) {
@@ -40,7 +41,12 @@ const renderProjects = (projectsData) => {
             <div class="col col-lg-3 col-md-12">
                 <div class="card project-card">
                     <div class="card-header d-flex justify-content-between">
-                        <span>${project.name}</span>
+                        <span class="d-flex align-items-center">
+							${project.name}
+							<div class="ms-1 d-flex">
+								<span class="badge rounded-pill text-bg-secondary">${parseFloat((project.size / 1024).toFixed(2))}MB</span>
+							</div>
+						</span>
                         <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detailsModal" data-bs-whatever="${project.name}">详情</button>
                     </div>
                     <div class="card-body">
@@ -117,14 +123,24 @@ document.addEventListener('DOMContentLoaded', async () => {
 	}
 })
 
-detailsModal.addEventListener('show.bs.modal', (event) => {
+detailsModal.addEventListener('show.bs.modal', async (event) => {
 	goods = event.relatedTarget.getAttribute('data-bs-whatever')
 	detailsModal.querySelector('.modal-title').innerHTML = goods
-
 	if (key) {
 		keyInput.value = key
 		keyInput.disabled = true
 	}
+
+	const contentResponse = await fetch(`/project/${goods}/README.md`)
+	let content
+
+	if (contentResponse.ok) {
+		content = marked.parse(await contentResponse.text())
+	} else {
+		content = '<h1> 没有找到简介，请联系管理员 </h1>'
+	}
+
+	modalBodyContent.innerHTML = content
 })
 
 Array.from(document.querySelectorAll('.needs-validation')).forEach((form) => {

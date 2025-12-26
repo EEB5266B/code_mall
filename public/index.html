@@ -9,7 +9,7 @@
 	<body>
 	<nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="/">Navbar</a>
+			<a class="navbar-brand" href="/">Code Mall</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -32,13 +32,17 @@
 	</div>
 
 	<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
+		<div class="modal-dialog modal-xl modal-dialog-scrollable">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h1 class="modal-title fs-5" id="detailsModalLabel">Title</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
-				<div class="modal-body"></div>
+				<div class="modal-body">
+					<div id="modalBodyContent">
+
+					</div>
+				</div>
 				<div class="modal-footer">
 					<form class="row needs-validation w-100" novalidate>
 						<div class="col-10">
@@ -54,8 +58,9 @@
 			</div>
 		</div>
 	</div>
-	<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3"></div>
+	<div id="toastContainer" class="toast-container position-fixed bottom-0 end-0 p-3"></div>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/marked.min.js"></script>
 	<script src="js/index.js"></script>
 	</body>
 </html>
