@@ -58,6 +58,9 @@
 	"vars": {
 		"GOOFISH_APP_ID": 1375521566885573,
 		"GOOFISH_MCH_ID": 999,
-		"GITHUB_OWNER": "EEB5266B"
+		"GITHUB_OWNER": "EEB5266B",
+		"CLIENT_VERSIONS": {
+			"xianyu-auto-reply": "v1"
+		}
 	}
 }

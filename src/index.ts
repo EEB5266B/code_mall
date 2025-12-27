@@ -6,6 +6,7 @@ import goofishGoodsDetail from './api/goofish/goods/detail'
 import goofishOrderPurchaseCreate from './api/goofish/order/purchase/create'
 import goodsExchange from './api/goods/exchange'
 import goodsDownload from './api/goods/download'
+import xianyuAutoReplyCreate from './api/xianyuAutoReply/create'
 
 // 创建路由器
 const router = Router()
@@ -16,6 +17,8 @@ router
 	.post('/goofish/goods/list', goofishGoodsList)
 	.post('/goofish/goods/detail', goofishGoodsDetail)
 	.post('/goofish/order/purchase/create', goofishOrderPurchaseCreate)
+	// xianyu-auto-reply
+	.post('/xianyu-auto-reply/create', xianyuAutoReplyCreate)
 	// 商品
 	.get('/api/goods/exchange/:goods/:key', goodsExchange)
 	.get('/api/goods/download/:key', goodsDownload)
